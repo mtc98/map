@@ -338,8 +338,8 @@ async function loadYouBikeDataNormalized() {
 ### 📦 Repository 資訊
 - **GitHub 帳號**: mtc98tw@gmail.com
 - **Repository 名稱**: taichung-3d-map
-- **Repository URL**: `https://github.com/[您的用戶名]/taichung-3d-map`
-- **線上展示網址**: `https://[您的用戶名].github.io/taichung-3d-map`
+- **Repository URL**: `https://github.com/mtc98/taichung-3d-map`
+- **線上展示網址**: `https://mtc98.github.io/taichung-3d-map`
 
 ### 🚀 部署流程
 
