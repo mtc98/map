@@ -350,9 +350,9 @@ async function loadYouBikeDataNormalized() {
 
 ### 📦 Repository 資訊
 - **GitHub 帳號**: mtc98tw@gmail.com
-- **Repository 名稱**: taichung-3d-map
-- **Repository URL**: `https://github.com/mtc98/taichung-3d-map`
-- **線上展示網址**: `https://mtc98.github.io/taichung-3d-map`
+- **Repository 名稱**: map
+- **Repository URL**: `https://github.com/mtc98/map`
+- **線上展示網址**: `https://mtc98.github.io/map`
 
 ### 🚀 部署流程
 
@@ -410,7 +410,7 @@ git commit -m "Deploy: GitHub Pages 部署 - 台中景點3D地圖Web版本"
 git checkout main
 
 # 5. 推送到 GitHub (需要先在 GitHub 建立 Repository)
-git remote add origin https://github.com/mtc98/taichung-3d-map.git
+git remote add origin https://github.com/mtc98/map.git
 git push -u origin main
 git push origin gh-pages
 ```
@@ -421,8 +421,8 @@ git push origin gh-pages
 1. **前往 GitHub**：https://github.com/new
 2. **登入帳號**：使用 mtc98tw@gmail.com
 3. **Repository 設定**：
-   - Repository name: `taichung-3d-map`
-   - Description: `台中景點3D地圖 - Flutter Web應用，支援3D景點導覽和YouBike站點查詢`
+   - Repository name: `map`
+   - Description: `台中景點3D地圖 - Flutter Web應用，支援3D景點導覽，使用安全登入機制保護API密鑰`
    - Visibility: **Public** (GitHub Pages 免費版本需要)
    - **不要勾選** "Add a README file" (因為本地已有檔案)
    - **不要勾選** "Add .gitignore" (已存在)
@@ -435,7 +435,7 @@ git push origin gh-pages
 ./deploy_github.sh
 
 # 或使用手動命令
-git remote add origin https://github.com/mtc98/taichung-3d-map.git
+git remote add origin https://github.com/mtc98/map.git
 git push -u origin main
 git push origin gh-pages
 ```
@@ -492,10 +492,10 @@ git checkout main
 # 1. 前往 GitHub → Settings → Developer settings → Personal access tokens
 # 2. 產生新權杖，勾選 "repo" 權限
 # 3. 複製權杖並使用以下命令：
-git remote set-url origin https://[YOUR_TOKEN]@github.com/mtc98/taichung-3d-map.git
+git remote set-url origin https://[YOUR_TOKEN]@github.com/mtc98/map.git
 
 # 或使用 SSH 方式
-git remote set-url origin git@github.com:mtc98/taichung-3d-map.git
+git remote set-url origin git@github.com:mtc98/map.git
 ```
 
 #### 問題2: Flutter build 失敗
@@ -568,7 +568,7 @@ git pull  # 如果需要更新腳本
 **解決方案**：
 1. **先建立 GitHub Repository**：
    - 前往 https://github.com/new
-   - Repository name: `taichung-3d-map`
+   - Repository name: `map`
    - 設為 Public
    - 不要勾選預設檔案
 2. **再執行部署腳本**：
@@ -603,6 +603,6 @@ git pull  # 如果需要更新腳本
 
 **專案完成日期**: 2024年9月26日
 **維護狀態**: 🟢 積極維護中
-**GitHub**: https://github.com/[您的用戶名]/taichung-3d-map
-**線上展示**: https://[您的用戶名].github.io/taichung-3d-map
+**GitHub**: https://github.com/mtc98/map
+**線上展示**: https://mtc98.github.io/map
 **聯絡資訊**: mtc98tw@gmail.com by Thomas Mei
