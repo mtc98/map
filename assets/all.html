@@ -313,7 +313,7 @@
         console.log('📍 當前網域:', window.location.href);
         
         (g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; console.log('📡 載入 Maps API URL:', a.src); d[q] = f; a.onerror = (err) => { console.error('❌ Google Maps API 載入失敗:', err); h = n(Error(p + " could not load.")); }; a.onload = () => { console.log('✅ Google Maps API 腳本載入成功'); }; a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })({
-            key: "AIzaSyDhFmyyK0ipeOreWD1D7Ry4wEE53EudGdA",
+            key: "{{API_KEY}}",
             v: "beta",
         });
         
